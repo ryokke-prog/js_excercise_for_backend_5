@@ -6,5 +6,5 @@ const PORT = 3001;
 
 app.use('/pages', router);
 app.listen(PORT, () => {
-  console.log('cannot GET/@@@');
+  console.log(`Example app listening on port ${PORT}!`);
 });
